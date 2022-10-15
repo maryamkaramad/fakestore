@@ -1,0 +1,38 @@
+@import '../../../assets/styles/variable.scss';
+
+.header{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: $backgroundcolorHeader;
+    color: $textSeceondary;
+    padding-top: 50px;
+    .header__content-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align:center;
+        width: 50%;
+    }
+    .categories{
+        display: flex;
+        align-items:stretch;
+        justify-content: space-around;
+   
+    
+                }
+    a{
+        color: $textSeceondary;
+        text-decoration: none;
+
+    }
+    h1{
+        margin-top: 0px;
+    }
+}
+.header__content{
+    display:flex ;
+    justify-content: space-around;
+    width: 100%;
+    gap: 12px;
+}

@@ -1,0 +1,21 @@
+.CardList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .cardlist__header{
+        a{ color: black;
+            text-decoration: none;}
+        display: flex;
+        justify-content:space-between;
+        align-items:center ; }
+        .cardlist__content{
+display: flex;
+align-items: center;
+gap: 30px;
+overflow: auto;
+& >*
+{flex-shrink: 0;}
+
+    }
+
+}

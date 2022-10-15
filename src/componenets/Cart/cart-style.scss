@@ -1,0 +1,57 @@
+.Cart{
+    &.cart__hidden{
+        display: none;
+    }
+    position: absolute;
+    z-index: 10;
+    top: 24px;
+    width: 400px;
+    left: 0;
+    background-color: white;
+    border-radius: 5px;
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 7px;
+color: black;
+a{
+    color: black;
+}
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+       
+        li{
+
+            display: grid;
+            grid-template-columns: 115px  1fr;
+            grid-template-rows: 1fr 45px;
+            gap: 20px;
+            border-top: 1px solid gainsboro;
+            img{
+                width: 100%;
+            }
+            .Cart___count{
+                display: flex;
+                align-items: stretch;
+    justify-content: space-between;
+            }
+        }
+       
+    }
+    h2{
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding: 5px;
+      
+
+    }
+  
+}

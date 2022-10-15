@@ -1,0 +1,13 @@
+@import '../../assets/styles/variable.scss';
+.Button{
+    background-color:$textSeceondary;
+    border: 1px solid $backgroundcolorHeader ;
+    color:$backgroundcolorHeader ;
+    cursor: pointer;
+    padding: 8px 16px;
+    outline: 0;
+    &.btnPrimary{
+        background-color:$backgroundcolorHeader;
+        color:$textSeceondary ;
+    }
+}

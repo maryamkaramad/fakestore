@@ -1,0 +1,31 @@
+@import '../../assets/styles/variable.scss';
+
+.Card{
+width: 150px;
+cursor: pointer;
+text-align: center;
+color: $backgroundcolorHeader;
+
+&:hover{
+box-shadow: 1px 10px 15px $hoverColor;
+}
+    .Card__image{
+        border: 1px solid gray;
+box-shadow: 1px 1px 4px black;
+    }
+    .Card__image{
+width: 100%;
+border: 0 1px solid $backgroundcolorHeader;
+    
+    }
+    .Card__title{
+font-size: 14px;
+    }
+
+    .Card__price{
+        font-size: 13px;
+    }
+    .Card__btn{
+text-align: left;
+    }
+}

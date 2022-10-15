@@ -1,0 +1,27 @@
+@import '../../../assets/styles/variable.scss';
+.navbarHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $backgroundcolorHeader;
+    .navbar__contant{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        color:$textSeceondary;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    ul{
+        padding: 0;
+        display: flex;
+        gap: 40px;
+        list-style: none;
+    }
+    li{
+        list-style: none;
+        position: relative;
+    }
+}
